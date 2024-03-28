@@ -10,5 +10,5 @@ setInterval(function () {
   // Convert milliseconds to days
   const differenceInDays = differenceInMs / (1000 * 60 * 60 * 24);
   
-  daysLeft.innerHTML = differenceInDays;
+  daysLeft.innerHTML =Math.ceil( differenceInDays);
 }, 1000);
